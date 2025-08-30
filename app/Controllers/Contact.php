@@ -49,7 +49,7 @@ class Contact extends BaseController
 
             // Penerima
             $mail->setFrom($data['email'], $data['name']); // pengirim dari form
-            $mail->addAddress('ap.shinta18@gmail.com', 'Admin Sekolah'); // tujuan
+            $mail->addAddress('admin@gmail.com', 'Admin Sekolah'); // tujuan
 
             // Isi email
             $mail->isHTML(true);
