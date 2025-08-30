@@ -42,8 +42,8 @@ class Contact extends BaseController
             $mail->isSMTP();
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
-            $mail->Username   = 'piwpiwpretty@gmail.com'; // ganti dengan email kamu
-            $mail->Password   = 'rwzb heyj sdoh rmka'; // pakai App Password (bukan password biasa)
+            $mail->Username   = 'contoh@gmail.com'; // ganti dengan email kamu
+            $mail->Password   = 'ini diisi pass app'; // pakai App Password (bukan password biasa)
             $mail->SMTPSecure = 'tls';
             $mail->Port       = 587;
 
